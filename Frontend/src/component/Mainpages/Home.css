@@ -1,0 +1,25 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: 'poppins',sans-serif;
+}
+
+
+.content h1{
+    font-size:40px;
+    color:#222;
+}
+
+
+
+
+.text-decoration-wavyline{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+   
+}
+
+.fot{
+    margin-top:150px;
+}

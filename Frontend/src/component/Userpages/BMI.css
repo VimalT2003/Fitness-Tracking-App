@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+.bmi-calculator{
+    width:800px;
+    height:500px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+}
+.box{
+    width:350px;
+    background-image: url('https://www.myheart.org.sg/wp-content/uploads/2021/12/bmi_01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.data{
+    flex:1;
+    padding:15px;
+}
+.data h1{
+    font-weight:700;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-size: 28px;
+    color:#2980b9;
+}
+
+.input-container{
+    margin-bottom:15px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+    color:#888;
+    font-size: 20px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+button{
+    background-color: #2980b9;
+    color:white;
+    border: none;
+    font-size: 16px;
+    cursor:pointer;
+    transition:0.3s;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: #3498db;
+}
+
+.data button:nth-last-of-type(2){
+    background-color: rgb(236, 89, 89);
+}
+
+.data button:hover{
+    transform: scale(.90);
+}
+
+.result{
+    margin-top:20px;
+    padding:10px;
+    border:1px solid #2980b9;
+    border-radius: 4px;
+}
+
+.result p{
+    margin:10px 0;
+    color:#555;
+}
+
+
+.result p:first-child{
+       color:#3498db;
+       font-weight:bold;
+}
+
+.error{
+    color:red;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
